@@ -1,0 +1,377 @@
+2015-02-05 05:41:55 Error: [ConfigureException] Could not load configuration file: /home/ducngoco/public_html/chuntime/app/Plugin/FacebookAuth/Config/FacebookConfig.ini
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Core/Configure.php(299): IniReader->read('FacebookConfig')
+#1 /home/ducngoco/public_html/chuntime/app/Config/bootstrap.php(121): Configure::load('FacebookConfig', 'default')
+#2 /home/ducngoco/public_html/chuntime/lib/Cake/Core/Configure.php(92): include('/home/ducngoco/...')
+#3 /home/ducngoco/public_html/chuntime/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#4 /home/ducngoco/public_html/chuntime/app/webroot/index.php(104): include('/home/ducngoco/...')
+#5 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#6 {main}
+2015-02-05 06:03:48 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /index.php/
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-05 07:04:59 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /index.php/users/login
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#6 {main}
+2015-02-05 14:50:58 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-05 14:50:59 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /index.php/users/img/background/galaxy.png
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-05 15:16:38 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-05 15:17:03 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-05 15:30:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:30:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:30:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:30:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:31:30 Error: [MissingViewException] View file "Users/feed.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/feed.ctp',
+)
+Request URL: /index.php/users/feed
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#6 {main}
+2015-02-05 15:32:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:33:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:33:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:33:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:33:55 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /index.php/users/users/login
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-05 15:35:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:35:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:36:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:40:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-05 15:40:42 Error: [MissingViewException] View file "Users/feed.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/feed.ctp',
+)
+Request URL: /index.php/users/feed
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#6 {main}
+2015-02-07 09:53:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-07 09:54:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-07 09:55:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /index.php/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#2 {main}
+2015-02-07 09:55:53 Error: [MissingViewException] View file "Users/feed.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/feed.ctp',
+)
+Request URL: /index.php/users/feed?code=AQBMd_0-i9EvWlBSt-JHf5F_vSE01QhSOZfnv9qV2ur6fut9Rhgg33_3pUxq1--ZMMf_PggJyga4PGiRXVVshsWx1405-UVMqEeo2BoGvyijfmuX83hw4IjGBh0Vfs-99kny16AgeITRqn6TO1m7MjSx8h8w6Y9KmjEn2K_pB3cSlDlxaipTE-r278sNUikfHfoKah0dqB96WwcOYzwdtaEdcxs4xtkEleTMftKwc3oUaaN0NJeWqEF-0StqhrSYFSaIPJuBCawW6Q9Dw9NAswqlBkQECgCL6D9Y7M5DhA5icyGgMo9SuqAywSmiIwFMBu23N2nx_5QcnnkGuTxsXOgM&state=5b8fc5bb7ea83e584d75b69b8439ac3b
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#6 {main}
+2015-02-07 09:58:19 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-07 10:01:26 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-07 10:06:36 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-07 10:11:45 Error: Fatal Error (1): Class 'Facebook' not found in [/home/ducngoco/public_html/chuntime/app/Controller/UsersController.php, line 123]
+2015-02-07 10:11:45 Error: [FatalErrorException] Class 'Facebook' not found
+Request URL: /index.php/users/feed?code=AQCGgQsjeCRwC9yZqOzCCZDFW6rkNN2nI79AZxvBYsQvFFDySoGhNCDfPZdlDlXr5kCv73PEF-7tuM9Z5sAQvec11fprkQH4bJKUQ4XpSU3zrqYFsQLa-BT2dPCLL03IvGESHvTmrV7wmtoGUQzmsCvCQ2vC1SMDNkGKacKjEODgQx-eCYWK9PSyPIz1yshVwrKa4GKOMTQ-Pvn-JIGnsst-QlnMmGybByOuq8ySSBxMY1FbMe0IrHEYIdNxUkRkNnGDuhwSgQe0gQ6EKO32lIUxQUuPxgDk00fkos28rqsBMP1kTE1J-NIgGF1J_UUMBslMdrp2Ur5r8UYc3k_DUYxC&state=ff2b451e08f6644fc8702a6cd05c9845
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', '/home/ducngoco/...', 123)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', '/home/ducngoco/...', 123, Array)
+#2 /home/ducngoco/public_html/chuntime/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', '/home/ducngoco/...', 123, Array)
+#3 /home/ducngoco/public_html/chuntime/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-07 10:22:03 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-07 10:22:53 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-07 10:24:34 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
+2015-02-07 10:24:34 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /index.php/users/js/bootstrap.js
+Stack Trace:
+#0 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ducngoco/public_html/chuntime/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ducngoco/public_html/chuntime/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ducngoco/public_html/chuntime/index.php(41): require('/home/ducngoco/...')
+#4 {main}
