@@ -1,0 +1,29 @@
+.fri-post{
+	padding:15px;
+	border-radius:2px;
+	background-color: $fri-post-bg;
+	.header-post{
+		position: relative;
+		.user-detail{
+			padding-left:0px;
+		}
+		.count{
+			padding-left:0px;
+			white-space: nowrap;
+		}
+	}
+	.img-post{
+		margin-left: -15px;
+		margin-right: -15px;
+		img{
+			display: block;
+			width: 100%;
+		}
+	}
+	.infor-post{
+		margin-top: 10px;
+	}
+	.comments-post{
+		margin-top: 20px;
+	}
+}
