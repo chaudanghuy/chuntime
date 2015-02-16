@@ -2024,7 +2024,11 @@ h1, h2, h3, h4, h5 {
   top: 15px;
   z-index: 999;
   display: block;
-  width: 100%; }
+  width: 100%;
+  background-color: #fff; }
+  #navbar ul#left-nav li {
+    padding-left: 10px;
+    padding-right: 10px; }
   #navbar #hamburger {
     width: 32px;
     height: 32px;

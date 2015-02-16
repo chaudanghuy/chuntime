@@ -5,6 +5,13 @@
    z-index: 999;
    display: block;
    width: 100%;
+   background-color:$bg-color-navbar;
+   ul#left-nav{
+      li{
+        padding-left:10px;
+        padding-right:10px; 
+      }
+   }
   #hamburger{
     width:32px;
     height: 32px;
@@ -44,10 +51,7 @@
         -o-transition: all 0.35s ease-in-out;
         transition: all 0.35s ease-in-out;
       }
-    }
-    #left-nav{
-      
-    }
+    } 
   }
   #hamburger.is-closed .hamb-top,
   #hamburger.is-closed .hamb-middle,
