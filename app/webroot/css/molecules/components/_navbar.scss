@@ -1,20 +1,25 @@
 #navbar{
   /* Hamburger Icon*/
    position:fixed;
-   top:15px;
+   top:0;
    z-index: 999;
    display: block;
    width: 100%;
+   height: 65px;
    background-color:$bg-color-navbar;
+   border-bottom: 1px solid $color-border-bottom-navbar;
    ul#left-nav{
+      height: 65px;
       li{
-        padding-left:10px;
-        padding-right:10px; 
+        padding:7.5px 15px;
+        &:last-child{
+          padding-right:0px;
+        }
       }
    }
   #hamburger{
     width:32px;
-    height: 32px;
+    height: 65px;
     margin: 0 15px;
     background:transparent;
     border:none;
