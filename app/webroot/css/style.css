@@ -2026,6 +2026,8 @@ h1, h2, h3, h4, h5 {
     margin-top: 10px; }
   .fri-post .comments-post {
     margin-top: 20px; }
+    .fri-post .comments-post a {
+      padding: 0 3.5px; }
 
 #navbar {
   /* Hamburger Icon*/

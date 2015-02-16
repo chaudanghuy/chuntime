@@ -39,7 +39,7 @@
 						<span class="hamb-bottom"></span>
 					</button>
 					<ul id="left-nav" class="ul-inline pull-right">
-						<li class="nav-plus"><a href=""><i class="fa fa-subway"></i></a></li>
+						<li class="nav-plus"><a href="" data-toggle="modal" data-target="#create"><i class="fa fa-subway" ></i></a></li>
 						<li class="nav-profile">
 							<a href=""><img src="http://placehold.it/50x50" class="img-circle" alt="" /></a>
 							<span>Quý Phạm</span>
@@ -48,6 +48,26 @@
 				</div><!-- /.container -->
 		</div><!-- /#navbar -->
 		<?php echo $this->fetch('content'); ?>
+		<!-- Creat Event Modal -->
+		<div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Tạo Event</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- End modal -->
+
 	</div><!-- /#page-content -->
 	</div><!-- /#wrapper -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
