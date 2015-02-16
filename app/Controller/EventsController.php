@@ -21,7 +21,10 @@
 			// [TODO] harcode user id
 			$userId = 1;
 									
-			$events = $this->Event->find('all', array('conditions' => array('user_id' => 1)));			
+			$events = $this->Event->find('all', array(
+					'conditions' => array('user_id' => 1),
+					'order' => array('Event.id desc'),
+				));			
 						
 			if (!empty($events)) {
 				$this->set('events', $events);
@@ -31,13 +34,16 @@
 		/**
 		 * Add new event
 		*/
-		public function add() {			
+		public function add() {						
 			if ($this->request->is('post')) {
 				$this->Event->create();				
 				// [TODO] hardcode user id
-				$this->request->data['Events']['user_id'] = 1;				
+				$this->request->data['Events']['user_id'] = 1;
+				$latlon = $this->request->data['Events']['latitude'].",".$this->request->data['Events']['longitude'];
+				$this->request->data['Events']['location'] = "http://maps.googleapis.com/maps/api/staticmap?center=$latlon&zoom=14&size=450x150&markers=color:red|$latlon&sensor=false";
 				if ($this->Event->save($this->request->data['Events'])) {
-					$this->Session->setFlash(__('Create event success!'));					
+					$this->Session->setFlash(__('Create event success!'));	
+					$this->redirect('index');
 				} else {
 					$this->Session->setFlash(__('Create event fail!'));
 				}

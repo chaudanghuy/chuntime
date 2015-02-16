@@ -1,3 +1,4 @@
+<?php echo $this->Html->link('Create new', array('controller' => 'events', 'action' => 'add')); ?>
 <div class="container">	
 			<div class="row">
 				<div id="newfeed-wrapper" class="col-lg-8 col-lg-offset-2">
@@ -20,7 +21,7 @@
 									</div><!-- /.user-infors -->
 								</div><!-- /.header-post -->
 								<div class="img-post">
-									<img src="http://placehold.it/450x150" alt="" />
+									<img src="<?php echo $event['Event']['location']; ?>" alt=""/>
 								</div><!-- /.img-post -->
 								<div class="infor-post">
 									<h3><?php echo $event['Event']['title']; ?></h3>
