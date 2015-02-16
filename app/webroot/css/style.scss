@@ -1,3 +1,9 @@
+/* 
+Theme name: Chuntime
+Version: 0.1;
+Design & Front-end: Quy Pham
+Back-end & Server: Huy Chau;
+*/
 /* Frameworl*/
 //@import 'framework/bootstrap';
 /* Ultilities */
@@ -5,11 +11,13 @@
 @import 'utilities/variables';
 @import 'utilities/reset';
 /* Atom */
-@import 'atoms/fontawesome/font-awesome';
+@import 'atoms/font-awesome';
 /* Molecules */
 // Login Page
 @import 'Molecules/loginpage';
-// New Feed CSS
+// New Feed CSS 
 @import 'Molecules/newfeed';
-// Friend Posts CSS
-@import 'Molecules/Components/friend_posts'
+// Friend Posts CSS 
+@import 'Molecules/Components/friend_posts';
+// Navbar CSS
+@import 'Molecules/Components/navbar';

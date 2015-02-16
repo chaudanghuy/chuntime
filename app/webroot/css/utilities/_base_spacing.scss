@@ -27,3 +27,9 @@ body,html{
 .table-cell{
 	display:table-cell;
 }
+.ul-inline{
+	list-style:none;
+	li{
+		display: inline-block;
+	}
+}

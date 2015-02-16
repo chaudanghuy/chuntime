@@ -31,11 +31,22 @@
 		</nav><!-- /.navbar -->
 		<!-- Content -->
 	<div id="page-content-wrapper">
-		<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-			<span class="hamb-top"></span>
-			<span class="hamb-middle"></span>
-			<span class="hamb-bottom"></span>
-		</button>
+		<div id="navbar">
+				<div class="container">
+					<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+						<span class="hamb-top"></span>
+						<span class="hamb-middle"></span>
+						<span class="hamb-bottom"></span>
+					</button>
+					<ul id="left-nav" class="ul-inline pull-right">
+						<li class="nav-plus"><a href=""><i class="fa fa-subway"></i></a></li>
+						<li class="nav-profile">
+							<a href=""><img src="http://placehold.it/50x50" class="img-circle" alt="" /></a>
+							<span>Quý Phạm</span>
+						</li>
+					</li><!-- /.pull-right -->
+				</div><!-- /.container -->
+		</div><!-- /#navbar -->
 		<?php echo $this->fetch('content'); ?>
 	</div><!-- /#page-content -->
 	</div><!-- /#wrapper -->

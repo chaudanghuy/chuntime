@@ -1,7 +1,8 @@
 $(document).ready(function () {
   var trigger = $('.hamburger'),
       overlay = $('.overplay'),
-     isClosed = false;
+      navbar = $("#navbar"),
+      isClosed = false;
 
     trigger.click(function () {
       hamburger_cross();      
@@ -11,13 +12,13 @@ $(document).ready(function () {
 
       if (isClosed == true) {          
         overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
+        navbar.removeClass('is-open');
+        navbar.addClass('is-closed');
         isClosed = false;
       } else {   
         overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
+        navbar.removeClass('is-closed');
+        navbar.addClass('is-open');
         isClosed = true;
       }
   }
