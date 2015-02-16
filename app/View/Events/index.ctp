@@ -1,4 +1,9 @@
-<div class="container">	
+<div id="content" class="container">	
+			<div class="row">
+				<div class="milestone col-lg-8 col-lg-offset-2">
+					<h4><i class="fa fa-circle today"></i>Today</h4>
+				</div><!-- /.milestone -->
+			</div><!-- /.row -->
 			<div class="row">
 				<div id="newfeed-wrapper" class="col-lg-8 col-lg-offset-2">
 					<?php foreach($events as $event): ?>
@@ -10,11 +15,11 @@
 										<div class="user-img col-lg-2 table-cell">
 											<img src="http://placehold.it/50x50" alt=""  class="img-circle"/>
 										</div><!-- /.user-img -->
-										<div class="user-detail table-cell col-lg-8 table-cell">
+										<div class="user-detail table-cell col-lg-7 table-cell">
 											<b class="name"><?php echo $event['User']['name']; ?></b> <span class="activites">đã tham gia một sự kiện</span> <br />
 											<span class="times"><?php echo $this->Time->get_time_difference_php($event['Event']['date']); ?></span>
 										</div><!-- /.user-detail -->
-										<div class="count col-lg-2 table-cell ">
+										<div class="count col-lg-3 table-cell ">
 											<?php echo $this->Time->get_time_difference_php($event['Event']['date']); ?>
 										</div><!-- /.count -->
 									</div><!-- /.user-infors -->
