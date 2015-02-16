@@ -34,8 +34,7 @@
 								<div class="comments-post">
 									<a href="" class="like-btn">Like</a>
 									<a href="" class="comment-btn">Comment</a>
-									<a href="" class="join-btn">Join</a>
-									<a href="" class="delete-btn">Delete</a>
+									<a href="" class="delete-btn pull-right">Delete</a>
 								</div><!-- /.comments-post -->
 							</div><!-- /.fri-posts -->
 						</div><!-- /.col-lg-12 -->
