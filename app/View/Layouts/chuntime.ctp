@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <?php echo $this->Html->css('framework/bootstrap'); ?>
+     <?php echo $this->Html->css('atoms/font-awesome'); ?>
     <?php echo $this->Html->css('style'); ?>
      
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,7 +48,10 @@
 					</li><!-- /.pull-right -->
 				</div><!-- /.container -->
 		</div><!-- /#navbar -->
-		<?php echo $this->fetch('content'); ?>
+		<div id="content" class="container">
+			<?php echo $this->fetch('content'); ?>
+		</div><!-- /#content.container -->
+		
 		<!-- Creat Event Modal -->
 		<div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
@@ -72,7 +76,7 @@
 	</div><!-- /#wrapper -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
+<script src="../app/webroot/js/bootstrap.js"></script>
+<script src="../app/webroot/js/custom.js"></script>
 </body>
 </html>

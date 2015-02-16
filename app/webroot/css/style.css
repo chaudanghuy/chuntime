@@ -8,7 +8,8 @@ Back-end & Server: Huy Chau;
 /* Ultilities */
 body {
   position: relative;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #f5f5f5; }
 
 body, html {
   height: 100%; }
@@ -54,8 +55,8 @@ h1, h2, h3, h4, h5 {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../app/webroot/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../app/webroot/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../app/webroot/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../app/webroot/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../app/webroot/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../app/webroot/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -2007,7 +2008,9 @@ h1, h2, h3, h4, h5 {
 .fri-post {
   padding: 15px;
   border-radius: 2px;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 15px; }
   .fri-post .header-post {
     position: relative; }
     .fri-post .header-post .user-detail {
@@ -2029,6 +2032,15 @@ h1, h2, h3, h4, h5 {
     .fri-post .comments-post a {
       padding: 0 3.5px; }
 
+@media only screen and (max-width: 600px) {
+  .fri-post {
+    width: 100%; } }
+@media only screen and (min-width: 601px) {
+  .fri-post {
+    width: 100%; } }
+@media only screen and (min-width: 993px) {
+  .fri-post {
+    width: 75%; } }
 #navbar {
   /* Hamburger Icon*/
   position: fixed;
@@ -2140,5 +2152,18 @@ h1, h2, h3, h4, h5 {
     display: block;
     -webkit-transform: translate3d(-100px, 0, 0);
     -webkit-transition: all .35s ease-in-out; }
+
+.create-event-form {
+  background-color: #fff; }
+
+@media only screen and (max-width: 600px) {
+  .create-event-form {
+    width: 100%; } }
+@media only screen and (min-width: 601px) {
+  .create-event-form {
+    width: 100%; } }
+@media only screen and (min-width: 993px) {
+  .create-event-form {
+    width: 75%; } }
 
 /*# sourceMappingURL=style.css.map */

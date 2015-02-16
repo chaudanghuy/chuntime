@@ -1,7 +1,25 @@
+// Body , HTML//
+$body-color:  #f5f5f5;
 // Friend Post //
 $fri-post-shadow: 1px 2px #424242;
 $fri-post-bg: #fff;
+$card-bg: #fff;
 
 // Navbar //
 $bg-color-navbar: #fff;
 $color-border-bottom-navbar: #ccc;
+
+// Responsive //
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;

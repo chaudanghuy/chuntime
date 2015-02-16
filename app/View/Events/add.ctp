@@ -6,9 +6,20 @@
 	<?php echo $this->Form->submit(); ?>
 	<?php echo $this->Form->end(); ?>	
 	<div id="mapholder"></div>
+	<p id="demo">Click the <button onclick="getLocation()">Try It</button> to get your position.</p>
 </div>	
-<p id="demo">Click the <button onclick="getLocation()">Try It</button> to get your position.</p>
-
+<!-- Creat event -->
+<div class="row">
+	<div id="create-form-wrapper" class="col-lg-8 col-lg-offset-2">
+				<div class="create-event-form">
+					<div class="create-event-field">
+							<i class="fa fa-calendar-o"></i>
+							<input type="text" placeholder="Title"/>
+					</div><!-- /.create-event-field -->
+				</div><!-- /.create-event-form -->
+	</div><!-- /#create-form-wrapper.col-lg-8 -->
+</div><!-- /.row -->
+<!-- -->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script>
 var x = document.getElementById("demo");

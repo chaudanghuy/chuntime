@@ -1,0 +1,18 @@
+.create-event-form{
+	background-color: $card-bg;
+}
+@media #{$small-and-down}{
+	.create-event-form{
+		width: 100%;
+	}
+}
+@media #{$medium-and-up}{
+	.create-event-form{
+		width: 100%;
+	}
+}
+@media #{$large-and-up}{
+	.create-event-form{
+		width: 75%;
+	}
+}

@@ -13,7 +13,6 @@
       alert(data.message);
     });
 </script>
-<div id="content" class="container">	
 			<div class="row">
 				<div class="milestone col-lg-8 col-lg-offset-2">
 					<h4><i class="fa fa-circle today"></i>Today</h4>
@@ -22,8 +21,6 @@
 			<div class="row">
 				<div id="newfeed-wrapper" class="col-lg-8 col-lg-offset-2">
 					<?php foreach($events as $event): ?>
-					<div id="post" class="row">
-						<div class="col-lg-8">
 							<div class="fri-post z-depth-1">
 								<div class="header-post row">
 									<div class="table">
@@ -52,9 +49,6 @@
 									<a href="" class="delete-btn pull-right">Delete</a>
 								</div><!-- /.comments-post -->
 							</div><!-- /.fri-posts -->
-						</div><!-- /.col-lg-12 -->
-					</div><!-- /.row -->
 				<?php endforeach; ?>	
 				</div><!-- /.col-lg-8 -->
 			</div><!-- /.row -->	
-		</div><!-- /.container -->

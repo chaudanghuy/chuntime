@@ -2,6 +2,8 @@
 	padding:15px;
 	border-radius:2px;
 	background-color: $fri-post-bg;
+	position:relative;
+	margin-bottom:15px;
 	.header-post{
 		position: relative;
 		.user-detail{
@@ -29,5 +31,20 @@
 		a{
 			padding:0 3.5px;
 		}
+	}
+}
+@media #{$small-and-down}{
+	.fri-post{
+		width: 100%;
+	}
+}
+@media #{$medium-and-up}{
+	.fri-post{
+		width: 100%;
+	}
+}
+@media #{$large-and-up}{
+	.fri-post{
+		width: 75%;
 	}
 }
