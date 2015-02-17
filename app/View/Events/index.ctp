@@ -1,3 +1,18 @@
+<script src="//js.pusher.com/2.2/pusher.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    // Enable pusher logging - don't include this in production
+    Pusher.log = function(message) {
+      if (window.console && window.console.log) {
+        window.console.log(message);
+      }
+    };
+
+    var pusher = new Pusher('649596740db2aad4ad9b');
+    var channel = pusher.subscribe('test_channel');
+    channel.bind('my_event', function(data) {
+      alert(data.message);
+    });
+</script>
 <div id="content" class="container">	
 			<div class="row">
 				<div class="milestone col-lg-8 col-lg-offset-2">
@@ -25,11 +40,11 @@
 									</div><!-- /.user-infors -->
 								</div><!-- /.header-post -->
 								<div class="img-post">
-									<img src="http://placehold.it/450x150" alt="" />
+									<img src="<?php echo $event['Event']['location']; ?>" alt="" />
 								</div><!-- /.img-post -->
 								<div class="infor-post">
 									<h3><?php echo $event['Event']['title']; ?></h3>
-									<span class="place">Tầng 51 - Bitexco Tower - TPHCM</span>
+									<span class="place"><?php echo $event['Event']['address']; ?></span>
 								</div><!-- /.infor-post -->
 								<div class="comments-post">
 									<a href="" class="like-btn">Like</a>
