@@ -1,0 +1,133 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Bootstrap 101 Template</title>
+	    <link rel="stylesheet" type="text/css" href="css/framework/bootstrap.css" />
+	    <link rel="stylesheet" type="text/css" href="css/atoms/font-awesome.css" />
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />     
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="overplay"></div><!-- /.overplay -->
+			<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar" role="navigation" >
+				<ul class="nav sidebar-nav">
+					<li class="sidebar-brand">
+						<a href="">Chuntime</a>
+					</li><!-- /.sidebar-brand -->
+					<li><a href="#">New Feeds</a></li>
+					<li><a href="#">Settings</a></li>
+				</ul><!-- /.nav -->
+			
+			</nav><!-- /.navbar -->
+			<div id="page-content-wrapper">
+				<div id="navbar">
+					<div class="container">
+						<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+							<span class="hamb-top"></span>
+							<span class="hamb-middle"></span>
+							<span class="hamb-bottom"></span>
+						</button>
+						<ul id="left-nav" class="ul-inline pull-right">
+							<li class="nav-plus"><a href="" data-toggle="modal" data-target="#create"><i class="fa fa-subway" ></i></a></li>
+							<li class="nav-profile">
+								<a href=""><img src="http://placehold.it/50x50" class="img-circle" alt="" /></a>
+								<span>Quý Phạm</span>
+							</li>
+						</ul><!-- /.pull-right -->
+					</div><!-- /.container -->
+				</div><!-- /#navbar -->
+				<div id="content" class="container">
+					<div class="row">
+						<div class="milestone col-lg-8 col-lg-offset-2">
+							<h4><i class="fa fa-circle today"></i>Today</h4>
+						</div><!-- /.milestone -->
+					</div><!-- /.row -->
+					<div class="row">
+						<div id="newfeed-wrapper" class="col-lg-8 col-lg-offset-2">
+							<div class="fri-post z-depth-1">
+								<div class="header-post row">
+									<div class="table">
+										<div class="user-img col-lg-2 table-cell">
+											<img src="http://placehold.it/50x50" alt=""  class="img-circle"/>
+										</div><!-- /.user-img -->
+										<div class="user-detail table-cell col-lg-7 table-cell">
+											<b class="name">Tester</b> <span class="activites">đã tham gia một sự kiện</span> <br />
+											<span class="times">9 hours ago</span>
+										</div><!-- /.user-detail -->
+										<div class="count col-lg-3 table-cell ">
+											9 hours ago										</div><!-- /.count -->
+									</div><!-- /.user-infors -->
+								</div><!-- /.header-post -->
+								<div class="img-post">
+									<img src="http://maps.googleapis.com/maps/api/staticmap?center=10.765517,106.67116790000001&zoom=14&size=450x150&markers=color:red|10.765517,106.67116790000001&sensor=false" alt="" />
+								</div><!-- /.img-post -->
+								<div class="infor-post">
+									<h3>Quý Test</h3>
+									<span class="place">193 Bà Hạt, 9, Quận 10, Hồ Chí Minh, Vietnam</span>
+								</div><!-- /.infor-post -->
+								<div class="comments-post">
+									<a href="" class="like-btn">Like</a>
+									<a href="" class="comment-btn">Comment</a>
+									<a href="" class="delete-btn pull-right">Delete</a>
+								</div><!-- /.comments-post -->
+							</div><!-- /.fri-posts -->
+							<div class="fri-post z-depth-1">
+								<div class="header-post row">
+									<div class="table">
+										<div class="user-img col-lg-2 table-cell">
+											<img src="http://placehold.it/50x50" alt=""  class="img-circle"/>
+										</div><!-- /.user-img -->
+										<div class="user-detail table-cell col-lg-7 table-cell">
+											<b class="name">Tester</b> <span class="activites">đã tham gia một sự kiện</span> <br />
+											<span class="times">9 hours ago</span>
+										</div><!-- /.user-detail -->
+										<div class="count col-lg-3 table-cell ">
+											9 hours ago										</div><!-- /.count -->
+									</div><!-- /.user-infors -->
+								</div><!-- /.header-post -->
+								<div class="img-post">
+									<img src="http://maps.googleapis.com/maps/api/staticmap?center=10.765517,106.67116790000001&zoom=14&size=450x150&markers=color:red|10.765517,106.67116790000001&sensor=false" alt="" />
+								</div><!-- /.img-post -->
+								<div class="infor-post">
+									<h3>Quý Test</h3>
+									<span class="place">193 Bà Hạt, 9, Quận 10, Hồ Chí Minh, Vietnam</span>
+								</div><!-- /.infor-post -->
+								<div class="comments-post">
+									<a href="" class="like-btn">Like</a>
+									<a href="" class="comment-btn">Comment</a>
+									<a href="" class="delete-btn pull-right">Delete</a>
+								</div><!-- /.comments-post -->
+							</div><!-- /.fri-posts -->
+						</div><!-- /#newfeed-wrapper.col-lg-8 -->
+					</div><!-- /.row -->
+				</div><!-- /#content.container -->
+				<!-- Creat Event Modal -->
+		<div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Tạo Event</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- End modal -->
+			</div><!-- /#page-content-wrapper -->
+		</div><!-- /#wrapper -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/custom.js"></script>
+	</body>
+</html>

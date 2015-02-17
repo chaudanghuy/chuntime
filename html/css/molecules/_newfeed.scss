@@ -1,0 +1,133 @@
+.nav .open a,
+.nav .open a:hover,
+.nav .open a:focus{
+    background-color: transparent;
+}
+
+// contetn //
+#content{
+  margin-top: 12px;
+}
+// Wrapper
+
+#wrapper{
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled{
+  padding-left:220px;
+}
+#sidebar{
+  z-index: 1000;
+  left:220px;
+  width: 0;
+  height: 100%;
+  margin-left: -220px;
+  overflow-y:auto;
+  overflow-x: hidden;
+  background-color: #1a1a1a;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+#wrapper.toggled #sidebar{
+  width:220px;
+}
+#page-content-wrapper{
+  width: 100%;
+  padding-top:70px;
+}
+#wrapper.toggled #page-content-wrapper{
+  position: absolute;
+  margin-right: -220px;
+}
+.sidebar-nav{
+  position:absolute;
+  top:0;
+  width: 220px;
+  margin:0;padding:0;
+  list-style: none;
+  li{
+    position:relative;
+    line-height: 20px;
+    display: inline-block;
+    width:100%;
+    &:before{
+      content:'';
+      position:absolute;
+      top:0;left:0;
+      z-index: -1;
+      height:100%;
+      width:3px;
+      background-color:#1c1c1c;
+      -webkit-transition: width 0.5s ease-in;
+      -o-transition: width 0.5s ease-in;
+      transition: width 0.5s ease-in;
+    }
+    &:first-child a {color:#fff;background-color:#1a1a1a; }
+    &:nth-child(2):before {background-color: #ec1b5a;}
+    &:nth-child(3):before {background-color: #79aefe;}
+    &:hover:before,&.open:hover:before{
+      width: 100%;
+      -webkit-transition: width .2s ease-in;
+      -o-transition: width .2s ease-in;
+      transition: width .2s ease-in;
+    }
+    a{
+      display: block;
+      color:#ddd;
+      text-decoration:none;
+      padding:10px 15px 10px 30px;
+      &:hover,&:active,&:focus{
+        color:#fff;
+        text-decoration: none;
+        background-color:transparent;
+      }
+    }
+    &.open{
+      a{
+        &:hover,&:active,&:focus{
+          color:#fff;
+          text-decoration: none;
+          background-color:transparent;
+        }
+      }
+    }
+  }
+  .sidebar-brand{
+    height: 65px;
+    font-size: 20px;
+    line-height: 44px;
+  }
+  .dropdown-menu{
+    position:relative;
+    width: 100%;
+    padding:0;
+    margin:0;
+    border-radius: 0;
+    border:none;
+    background-color:#222;
+    box-shadow:none;
+  }
+}
+
+
+/* OVerpaly */
+.overplay{
+  position:fixed;
+  display: none;
+  width:100%;height:100%;
+  top:0;left:0;
+  right: 0;bottom:0;
+  background-color:rgba(250,250,250,.8);
+  z-index: 1;
+}
+.milestone{
+  margin-top:8px;
+  margin-bottom: 8px;
+}
